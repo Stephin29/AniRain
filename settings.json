@@ -24,7 +24,7 @@
       "options": ["1080p (Ultra)", "720p (High)", "480p (Fast)"],
       "current_selection": "1080p (Ultra)"
     }
-  ]
+  ],
   "general_settings": [
     {
       "key": "theme",
