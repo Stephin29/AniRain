@@ -31,7 +31,7 @@
       "option_type": "menu",
       "title": "Theme of the app",
       "subtitle": "Select the theme of your like",
-      "options": ["Midnight Monsoon","Cyber Puddle","Shinjuku Mist","Petal Shower","Storm Glass"],
+      "options": ["Dark Mode", "Light Mode"],
       "current_selection": "Midnight Monsoon"
     },
     {
