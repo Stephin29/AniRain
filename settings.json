@@ -1,8 +1,7 @@
 {
   "firstboot": true,
   "show18": false,
-  "theme": "default",
-  "general_settings": [
+  "anime_settings": [
     {
       "key": "auto_play",
       "option_type": "switch",
@@ -24,22 +23,23 @@
       "subtitle": "Set your preferred resolution for video playback.",
       "options": ["1080p (Ultra)", "720p (High)", "480p (Fast)"],
       "current_selection": "1080p (Ultra)"
+    }
+  ]
+  "general_settings": [
+    {
+      "key": "theme",
+      "option_type": "menu",
+      "title": "Theme of the app",
+      "subtitle": "Select the theme of your like",
+      "options": ["Midnight Monsoon","Cyber Puddle","Shinjuku Mist","Petal Shower","Storm Glass"],
+      "current_selection": "Midnight Monsoon"
     },
     {
-      "key": "audio_lang",
-      "option_type": "menu",
-      "title": "Preferred Audio (Dub)",
-      "subtitle": "Choose your default audio language.",
-      "options": ["Japanese (Original)", "English", "Spanish", "French"],
-      "current_selection": "Japanese (Original)"
-    },
-    {
-      "key": "sub_lang",
-      "option_type": "menu",
-      "title": "Subtitle Language",
-      "subtitle": "Choose your preferred subtitle language.",
-      "options": ["English", "Spanish", "Portuguese", "None"],
-      "current_selection": "English"
+      "key": "auto_start",
+      "option_type": "switch",
+      "title": "Auto-Start App",
+      "subtitle": "Open the app automatically after you boot your laptop",
+      "current_value": false
     }
   ]
 }
