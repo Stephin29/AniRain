@@ -21,7 +21,7 @@
 
 > [!IMPORTANT]  
 > **Phase 1:** High-performance Anime Streaming.  
-> **Phase 2:** Music (Spotify Alt) & Video (YouTube Alt).
+> **Phase 2:** Music Ecosystem (Spotify / YouTube Music Alternative).
 
 ---
 
