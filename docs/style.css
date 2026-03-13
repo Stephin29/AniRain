@@ -1,12 +1,5 @@
-/* 1. Import Modern Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Orbitron:wght@400;900&family=JetBrains+Mono:wght@300&display=swap');
 
-
-
-
-
-
-/* 2. Global Resets */
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +17,6 @@ body {
     justify-content: center;
 }
 
-/* 3. Background, Cinematic Overlay & Scanlines */
 .video-background {
     position: fixed;
     top: 0;
@@ -62,7 +54,6 @@ body {
     object-fit: cover;
 }
 
-/* 4. Animations */
 @keyframes fadeInUp {
     0% { opacity: 0; transform: translateY(40px); filter: blur(10px); }
     100% { opacity: 1; transform: translateY(0); filter: blur(0); }
@@ -76,7 +67,6 @@ body {
   100% { text-shadow: none; transform: translate(0); }
 }
 
-/* Per-character wave glow — rainfall effect */
 @keyframes charGlow {
     0%, 100% {
         opacity: 1;
@@ -90,19 +80,16 @@ body {
     }
 }
 
-/* Echo (ghost) title pulse */
 @keyframes echoFloat {
     0%, 100% { opacity: 0.06; transform: translateY(0) scale(1); }
     50% { opacity: 0.12; transform: translateY(-6px) scale(1.01); }
 }
 
-/* Tagline fade in after title */
 @keyframes taglineFade {
     0% { opacity: 0; letter-spacing: 14px; }
     100% {opacity: 0.85;letter-spacing: 10px;}
 }
 
-/* 5. Title Wrapper */
 .title-wrapper {
     position: relative;
     display: flex;
@@ -111,7 +98,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Echo layer — blurred ghost behind the title */
 .title-echo {
     position: absolute;
     top: 0;
@@ -124,7 +110,6 @@ body {
     letter-spacing: 25px;
 }
 
-/* Main title */
 .title-main {
     position: relative;
     z-index: 1;
@@ -141,7 +126,6 @@ body {
     color: #fff;
 }
 
-/* "Ani" — lighter weight */
 .title-main .char {
     font-weight: 400;
     display: inline-block;
@@ -150,16 +134,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px;
 }
 
-/* "Rain" — bolder, slightly dimmed for contrast */
 .title-main .title-part-rain {
     font-weight: 700;
     color: rgba(255, 255, 255, 1.02);
 }
 
-/* Echo split colors */
 .title-echo .title-part-ani {
     font-weight: 400;
 }
@@ -167,7 +148,6 @@ body {
     font-weight: 700;
 }
 
-/* Tagline */
 .tagline {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.35rem;
@@ -177,7 +157,6 @@ body {
     animation: taglineFade 2s 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-/* 6. Content Styling */
 .timer-container {
     position: relative;
     text-align: center;
@@ -193,7 +172,6 @@ body {
     scale: 0.8;
 }
 
-/* Futuristic Corner Borders */
 .timer-container::before, .timer-container::after {
     content: "";
     position: absolute;
@@ -237,7 +215,6 @@ body {
     opacity: 0.4;
 }
 
-/* 7. Mobile Responsiveness */
 @media (max-width: 768px) {
     .title { font-size: 1.5rem; }
     .title-main { letter-spacing: 0.15em; }
