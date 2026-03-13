@@ -1,6 +1,6 @@
-<p align="center">
-  anirain
-</p>
+<!-- <p align="center">
+  <img src="assets/logo.png" alt="AniRain Logo" width="120" height="120" />
+</p> -->
 
 <h1 align="center">AniRain</h1>
 
