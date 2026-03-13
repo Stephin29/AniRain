@@ -238,7 +238,7 @@ body {
 }
 
 /* 7. Mobile Responsiveness */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .title { font-size: 1.5rem; }
     .title-main { letter-spacing: 0.15em; }
     .title-echo { letter-spacing: 10px; }
@@ -248,7 +248,7 @@ body {
     .separator { font-size: 1.8rem; padding-top: 10px; }
     .timer-container { padding: 40px 20px; }
     .tagline { font-size: 0.55rem; letter-spacing: 6px; }
-}
+} */
 
 .time-segment {
     display: flex;
