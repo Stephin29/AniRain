@@ -1,13 +1,11 @@
 const videoOptions = ['1.mp4', '2.mp4', '3.mp4', '4.mp4', '5.mp4'];
 
-// Set launch date
 const targetDate = new Date("March 26, 2026 16:59:59").getTime();
 
 function setRandomVideo() {
     const video = document.getElementById('bg-video');
     const randomIndex = Math.floor(Math.random() * videoOptions.length);
     
-    // Simple fade transition effect could be added here via CSS classes
     video.src = videoOptions[randomIndex];
     video.load();
 }
@@ -54,9 +52,6 @@ function updateCountdown() {
         String(seconds).padStart(2, "0");
 }
 
-// update every second
 setInterval(updateCountdown, 1000);
 
-
-// run once immediately
 updateCountdown();
