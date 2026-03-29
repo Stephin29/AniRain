@@ -1,6 +1,6 @@
 const videoOptions = ['1.mp4', '2.mp4', '3.mp4', '4.mp4', '5.mp4'];
 
-const targetDate = new Date("March 29, 2026 19:59:59").getTime();
+const targetDate = new Date("March 29, 2026 20:59:59").getTime();
 
 function setRandomVideo() {
     const video = document.getElementById('bg-video');
