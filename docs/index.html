@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AniRain - Premium Anime Streaming App</title>
+  <meta name="description" content="Experience anime like never before with AniRain - featuring 1000+ titles, auto-skip, watchlist, and high-quality streaming up to 1080p.">
+  <meta name="keywords" content="anime, streaming, app, download, windows, android, watchlist, auto-skip">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-content">
+        <div class="logo">
+          <h1 class="logo-text">AniRain</h1>
+        </div>
+        
+        <div class="nav-links desktop-only">
+          <a href="#hero" class="nav-link">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            Home
+          </a>
+          <a href="#features" class="nav-link">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            Features
+          </a>
+          <a href="#anime" class="nav-link">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+            Anime
+          </a>
+          <a href="#community" class="nav-link">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            Community
+          </a>
+          <a href="https://github.com/Stephin29/AniRain/releases/latest/download/AniRain_Setup.exe" class="btn btn-gradient" download>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download
+          </a>
+        </div>
+
+        <button class="mobile-menu-btn mobile-only" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          <svg class="close-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="mobileMenu">
+      <div class="mobile-menu-content">
+        <a href="#hero" class="mobile-nav-link">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+          Home
+        </a>
+        <a href="#features" class="mobile-nav-link">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          Features
+        </a>
+        <a href="#anime" class="mobile-nav-link">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+          Anime
+        </a>
+        <a href="#community" class="mobile-nav-link">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          Community
+        </a>
+        <a href="https://github.com/Stephin29/AniRain/releases/latest/download/AniRain_Setup.exe" class="btn btn-gradient mobile-full" download>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Download
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <!-- Background Effects -->
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
+      <div class="hero-pattern"></div>
+      
+      <!-- Floating Elements -->
+      <div class="floating-element floating-1"></div>
+      <div class="floating-element floating-2"></div>
+      <div class="floating-element floating-3"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="hero-text animate-fade-up">
+        <h1 class="hero-title">
+          <span class="text-gradient">ANIRAIN</span>
+          <br>
+          Premium Anime Streaming
+        </h1>
+        
+        <p class="hero-subtitle animate-fade-up" style="animation-delay: 0.2s">
+          Experience anime like never before with 1000+ titles, auto-skip functionality, 
+          watchlist management, and crystal-clear streaming up to 1080p.
+        </p>
+
+        <div class="hero-buttons animate-fade-up" style="animation-delay: 0.4s">
+          <a href="https://github.com/Stephin29/AniRain/releases/latest/download/AniRain_Setup.exe" class="btn btn-gradient btn-lg" download>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download for Windows
+          </a>
+          <button class="btn btn-glass btn-lg" id="watchDemoBtn">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Watch Trailer
+          </button>
+        </div>
+
+        <!-- Feature Pills -->
+        <div class="feature-pills animate-fade-up" style="animation-delay: 0.6s">
+          <div class="pill">
+            <svg class="pill-icon pill-icon-yellow" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>1000+ Titles</span>
+          </div>
+          <div class="pill">
+            <svg class="pill-icon pill-icon-purple" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            <span>Auto-Skip</span>
+          </div>
+          <div class="pill">
+            <svg class="pill-icon pill-icon-green" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span>Ad-Free</span>
+          </div>
+          <div class="pill">
+            <svg class="pill-icon pill-icon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span>Cross-Platform</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Anime Section -->
+  <section id="anime" class="anime-section">
+    <div class="section-header">
+      <h2 class="section-title"><span class="text-gradient">Popular Anime</span></h2>
+      <p class="section-subtitle">Discover what's trending in the anime community</p>
+    </div>
+
+    <!-- Loading Skeleton -->
+    <div class="anime-loading" id="animeLoading">
+      <div class="skeleton-row">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+      <div class="skeleton-row">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+    </div>
+
+    <!-- Anime Rows -->
+    <div class="anime-rows hidden" id="animeRows">
+      <!-- First Row - Scrolls Left -->
+      <div class="anime-row-container">
+        <div class="anime-row scroll-left" id="animeRow1"></div>
+      </div>
+      
+      <!-- Second Row - Scrolls Right -->
+      <div class="anime-row-container">
+        <div class="anime-row scroll-right" id="animeRow2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Why Choose <span class="text-gradient">AniRain?</span></h2>
+        <p class="section-subtitle">Experience anime streaming like never before with premium features designed for true anime fans</p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="features-grid">
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <h3 class="feature-title">Auto-Skip Function</h3>
+          <p class="feature-desc">Automatically skip intros and outros with smart timing detection. Never sit through boring openings again!</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="feature-title">Ad-Free Experience</h3>
+          <p class="feature-desc">Enjoy uninterrupted anime streaming without any advertisements. Pure content, pure enjoyment.</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+          </div>
+          <h3 class="feature-title">Cross-Platform Sync</h3>
+          <p class="feature-desc">Seamlessly sync your watchlist and progress across Windows, Android, and future platforms.</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          </div>
+          <h3 class="feature-title">Offline Downloads</h3>
+          <p class="feature-desc">Download your favorite anime for offline viewing. Perfect for commutes and travel.</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3 class="feature-title">Release Schedule</h3>
+          <p class="feature-desc">Never miss an episode with our comprehensive anime release calendar and notifications.</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3 class="feature-title">1000+ Titles</h3>
+          <p class="feature-desc">Access a massive library of anime series and movies from classic to latest releases.</p>
+        </div>
+      </div>
+
+      <!-- Stats Section -->
+      <div class="stats-section animate-on-scroll">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <div class="stat-value">50K+</div>
+            <div class="stat-label">Active Users</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+            </div>
+            <div class="stat-value">1M+</div>
+            <div class="stat-label">Episodes Streamed</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            <div class="stat-value">4.8/5</div>
+            <div class="stat-label">User Rating</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </div>
+            <div class="stat-value">100K+</div>
+            <div class="stat-label">Downloads</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="cta-section animate-on-scroll">
+        <h3 class="cta-title">Ready to Start Your Anime Journey?</h3>
+        <p class="cta-subtitle">Join thousands of anime fans already enjoying the best streaming experience</p>
+        <div class="cta-buttons">
+          <a href="https://github.com/Stephin29/AniRain/releases/latest/download/AniRain_Setup.exe" class="btn btn-gradient btn-lg" download>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download for Windows
+          </a>
+          <button class="btn btn-disabled btn-lg" disabled>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download for Android (Coming Soon)
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Community Section -->
+    <div id="community" class="community-section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Join Our <span class="text-gradient">Community</span></h2>
+          <p class="section-subtitle">Connect with anime fans worldwide, share your favorites, and discover new series together</p>
+        </div>
+
+        <div class="community-grid">
+          <div class="community-card animate-on-scroll">
+            <svg class="community-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <h3 class="community-title">Discord Server</h3>
+            <p class="community-desc">Join our active Discord community for real-time discussions, recommendations, and exclusive content.</p>
+            <a href="https://discord.gg/AzfFvRX7MZ" class="btn btn-gradient" target="_blank" rel="noopener noreferrer">Join Discord</a>
+          </div>
+
+          <div class="community-card animate-on-scroll">
+            <svg class="community-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <h3 class="community-title">Star us on GitHub</h3>
+            <p class="community-desc">Support our project by starring our repository on GitHub and contribute to our open-source community.</p>
+            <a href="https://github.com/Stephin29/AniRain" class="btn btn-glass" target="_blank" rel="noopener noreferrer">Star on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-bg"></div>
+    
+    <div class="container">
+      <div class="footer-content">
+        <!-- Brand Section -->
+        <div class="footer-brand">
+          <h3 class="footer-logo">AniRain</h3>
+          <p class="footer-desc">Premium anime streaming experience with 1000+ titles, auto-skip functionality, and cross-platform sync.</p>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        <div class="footer-info">
+          <span>&copy; <span id="currentYear">2026</span> AniRain</span>
+          <span class="separator">•</span>
+          <span>Made with</span>
+          <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span>for anime fans</span>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="footer-disclaimer">
+        <p>AniRain is an anime streaming application. All anime content and metadata are provided by third-party sources. This website serves as a showcase and download portal for the AniRain application. Please ensure you comply with your local laws and regulations regarding streaming content.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Modal Overlay -->
+  <div class="video-modal" id="videoModal">
+    <div class="video-modal-backdrop" id="videoModalBackdrop"></div>
+    <div class="video-modal-content">
+      <button class="video-modal-close" id="videoModalClose" aria-label="Close video">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="video-container">
+        <video class="custom-video-player" controls autoplay>
+          <source src="Video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
