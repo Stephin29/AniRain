@@ -27,14 +27,6 @@
   ],
   "general_settings": [
     {
-      "key": "theme",
-      "option_type": "menu",
-      "title": "Theme of the app",
-      "subtitle": "Select the theme of your like",
-      "options": ["Dark Mode", "Light Mode"],
-      "current_selection": "Midnight Monsoon"
-    },
-    {
       "key": "auto_start",
       "option_type": "switch",
       "title": "Auto-Start App",
