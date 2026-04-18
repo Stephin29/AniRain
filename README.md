@@ -16,7 +16,6 @@
 
 ---
 
-### ⏳ The Countdown is On
 **AniRain** is currently in active development. We are merging the sleekness of modern web tech with the raw power of Python to build the ultimate alternative to paid streaming giants.
 
 > [!IMPORTANT]  
@@ -41,7 +40,7 @@ AniRain is a desktop-first streaming application that aggregates content from ac
 
 ## 🛰️ Join the Storm
 
-AniRain is currently in a "closed-door" development phase as we finalize the Python scraping engine and Electron core. We aren't just building another app—we're building a unified ecosystem to replace the subscription-heavy giants.
+We aren't just building another app—we're building a unified ecosystem to replace the subscription-heavy giants.
 
 ### 📅 The Launch Roadmap
 - [ ] **Alpha 0.1:** Core Anime Scraper & Electron Shell (Current)
