@@ -78,11 +78,6 @@ body::before {
   .container {
     padding: 0 1.5rem;
   }
-  #logo-adaptive{
-    width: 7rem;
-    margin-bottom: -1rem;
-    margin-right: 0rem;
-  }
 }
 
 @media (min-width: 1024px) {
