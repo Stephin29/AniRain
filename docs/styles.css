@@ -486,10 +486,6 @@ body::before {
   .hero-buttons {
     flex-direction: row;
   }
-  #logo-adaptive{
-    width: 7rem;
-    margin-bottom: 0rem;
-  }
 }
 
 /* Feature Pills */
