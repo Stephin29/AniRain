@@ -43,10 +43,11 @@ AniRain is a desktop-first streaming application that aggregates content from ac
 We aren't just building another app—we're building a unified ecosystem to replace the subscription-heavy giants.
 
 ### 📅 The Launch Roadmap
-- [ ] **Alpha 0.1:** Core Anime Scraper & Electron Shell (Current)
-- [ ] **Alpha 0.2:** AniList & MyAnimeList API Integration
-- [ ] **Beta 1.0:** Public Release (Anime Phase)
-- [ ] **Beta 2.0:** Spotify & YouTube Alternatives Integration
+- [x] **Alpha 0.1:** Core Anime Scraper & Electron Shell (Current)
+- [x] **Alpha 0.2:** AniList & MyAnimeList API Integration
+- [x] **Release 1.0:** Public Release (Anime Phase)
+- [ ] **Release 2.0:** Movie and TV Section Integration
+- [ ] **Release 3.0:** Music Section Integration
 
 ---
 
