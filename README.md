@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge" alt="Status" />
-  <img src="https://img.shields.io/badge/Platform-Windows%20|%20macOS%20|%20Linux-blue?style=for-the-badge" alt="Platform" />
+  <img src="https://img.shields.io/badge/Status-App_Released-green?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Android-blue?style=for-the-badge" alt="Platform" />
   <img src="https://img.shields.io/badge/Built_With-Electron%20|%20Python-green?style=for-the-badge" alt="Tech" />
 </p>
 
