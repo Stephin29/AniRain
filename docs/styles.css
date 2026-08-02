@@ -429,7 +429,6 @@ body::before {
 
 .hero-title img#logo-adaptive {
   width: 7rem;
-  /* margin-bottom: 1rem; */
   margin-right: 0;
   display: block;
 }
@@ -444,9 +443,9 @@ body::before {
   }
 
   .hero-title img#logo-adaptive {
-    width: 7rem;
-    margin-bottom: -2rem;
-    margin-right: -1rem;
+    width: 9rem;
+    margin-bottom: 0rem;
+    /* margin-right: -1rem; */
     display: inline-block;
   }
 }
